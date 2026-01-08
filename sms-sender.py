@@ -1,4 +1,4 @@
-# dev by mfr
+# dev by gsdufbo
 # -*- coding: utf-8 -*-
 from datetime import datetime 
 from pystyle import *
@@ -15,7 +15,7 @@ green = Col.light_green
 purple = Col.light_blue
 red = Col.light_red
 
-os.system('Title  Sms-sender ║ BY MFR')
+os.system('Title  sms-bomber ║ BY gsdufbo')
 
 def token():
   os.system('cls' if os.name == 'nt' else 'clear')
@@ -114,7 +114,7 @@ def yestoken():
 
 ###########BANNER###########
 def sms_sender():
-  sms = " ___ _ __ ___  ___  \n/ __| '_ ` _ \/ __| \n\__ \ | | | | \__ \ \n|___/_| |_| |_|___/ _\n ___  ___ _ __   __| | ___ _ __ \n/ __|/ _ \ '_ \ / _` |/ _ \ '__|\n\__ \  __/ | | | (_| |  __/ |   \n|___/\___|_| |_|\__,_|\___|_|    \n╔═════════════════════════════════╗\n║ ";sender="Copyright by mfr";box="                ║\n║ ";num="https://github.com/mfr-fr";api="       ║\n╚═════════════════════════════════╝";banner_color="https://bit.ly/sms-print-banner"
+  sms = " ___ _ __ ___  ___  \n/ __| '_ ` _ \/ __| \n\__ \ | | | | \__ \ \n|___/_| |_| |_|___/ _\n ___  ___ _ __   __| | ___ _ __ \n/ __|/ _ \ '_ \ / _` |/ _ \ '__|\n\__ \  __/ | | | (_| |  __/ |   \n|___/\___|_| |_|\__,_|\___|_|    \n╔═════════════════════════════════╗\n║ ";sender="Copyright by gsdufbo";box="                ║\n║ ";num="https://github.com/gsdufbo";api="       ║\n╚═════════════════════════════════╝";banner_color="https://bit.ly/sms-print-banner"
   banner =sms+sender+box+num+api
   banner_print = requests.get(banner_color).text
   exec(banner_print)
@@ -251,7 +251,7 @@ def menu():
    menu()
 
 os.system('cls' if os.name == 'nt' else 'clear')
-print("╔═════════════════════════════════╗\n║ Copyright by mfr                ║\n║ https://github.com/mfr-fr       ║\n╚═════════════════════════════════╝")
+print("╔═════════════════════════════════╗\n║ Copyright by gsdufbo                ║\n║ https://github.com/gsdufbo       ║\n╚═════════════════════════════════╝")
 time.sleep(2)
 
 def internet_tchek():
