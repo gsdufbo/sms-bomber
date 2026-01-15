@@ -1,2 +1,3 @@
-start python sms-bomber.py
+start sms-bomber.py
+
 
